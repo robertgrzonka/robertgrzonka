@@ -22,7 +22,7 @@
 
         &:hover,
         &:focus {
-          color: lighten($color-secondary, 15%);
+          color:  $color-secondary-light;
         }
 
         &--active {
