@@ -2,31 +2,46 @@
 @import '../../../assets/scss/mixins';
 
 .menu {
-  @include margin-bottom(1.5);
+  @include margin-top(1);
+  @include margin-bottom(2);
 
   &__list {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
 
     &-item {
       padding: 0;
-      margin: 10px 0;
+      margin: 0 auto;
+      border-left: 1px solid $color-secondary;
+      display: block;
 
       &-link {
-        font-size: $typographic-base-font-size;
-        color: lighten($typographic-base-font-color, 20%);
-        font-weight: 400;
-        border: 0;
-        transition: all 0.5s;
+        font-size: $typographic-base-font-size * 1.1;
+        color: $color-secondary;
+        font-weight: 100;
+        padding: 5px 20px;
+        width: 100px;
+        text-align: left;
+        display: block;
+        transition: $transition;
 
         &:hover,
         &:focus {
           color: $color-secondary;
+          border-left: 3px solid $color-secondary;
+          background-color: lighten($color-secondary-light, 45%);
+          transition: all 0.1;
+          padding: 5px 20px;
+          font-weight: 500;
+          transition: $transition;
         }
 
         &--active {
           color: $color-secondary;
+          border-left: 3px solid $color-secondary;
+          font-weight: 500;
+          transition: $transition;
         }
 
       }

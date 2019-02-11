@@ -11,17 +11,19 @@
 
     &-title {
       font-size: $typographic-base-font-size * 1.6875;
-      @include line-height(1.5);
-      @include margin-top(0.25);
-      @include margin-bottom(.5);
+      @include line-height(1);
+      @include margin-top(0.5);
+      @include margin-bottom(0.5);
 
       &-link {
         color: $color-base;
+        transition: all 0.3s linear;
 
         &:hover,
         &:focus {
-          color: $color-base;
-          border-bottom: 1px solid $color-base;
+          color: lighten($color-base, 15%);
+          border-bottom: 1px solid lighten($color-base, 15%);
+          transition: all 0.3s linear;
         }
 
       }
@@ -30,48 +32,68 @@
 
     &-description {
       font-size: $typographic-base-font-size;
-      @include line-height(0.95);
-      @include margin-bottom(.75);
+      @include line-height(1);
+      @include margin-bottom(1.25);
     }
 
     &-meta {
       &-time {
         font-size: $typographic-small-font-size;
         color: $color-base;
-        font-weight: 400;
+        font-weight: 600;
         text-transform: uppercase;
       }
 
       &-divider {
-        margin: 0 5px;
+        margin: 0 10px;
+        font-weight: 300;
+
+        &::after {
+          content: ' | ';
+          color: $color-base;
+        }
       }
 
       &-category {
         &-link {
           font-size: $typographic-small-font-size;
-          color: $color-secondary;
-          font-weight: 500;
+          color: $color-primary;
+          font-weight: 900;
           text-transform: uppercase;
+          transition: $transition;
 
           &:hover,
           &:focus {
-            color: $color-primary;
+            color: $color-primary-light;
+            transition: $transition;
           }
-
         }
-
       }
-
     }
 
     &-readmore {
-      font-size: $typographic-base-font-size;
-      color: $color-primary;
+      @include margin-top(1);
+      font-size: $typographic-base-font-size * 0.9;
+      font-weight: 900;
+      border: 1px solid $color-primary-light;
+      color: $color-primary-light;
+      border-radius: $button-border-radius;
+      padding: 3px 15px;
+      height: $button-height;
+      line-height: $button-height;
+      text-align: center;
+      display: block;
+      width: 5rem;
+      margin-left: auto;
+      margin-right: auto;
+      transition: $transition;
 
       &:hover,
       &:focus {
-        color: $color-primary;
-        border-bottom: 1px solid $color-primary;
+        color: $color-primary-dark;
+        border: 1px solid $color-primary-dark;
+        box-shadow: 0px 4px 12px $color-primary-dark;
+        transition: $transition;
       }
 
     }

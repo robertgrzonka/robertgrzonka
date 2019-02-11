@@ -15,31 +15,30 @@
   }
 
   &__home-button {
-    @include margin-top(2);
+    @include margin-top(1);
     display: block;
-    max-width: 90px;
+    width: 5rem;
+    padding: 3px 15px;
     height: $button-height;
-    padding: 0 24px;
     line-height: $button-height;
     text-align: center;
-    color: $color-gray;
-    border: 1px solid lighten($color-gray, 15%);
+    color: $color-secondary;
+    border: 1px solid $color-secondary;
     border-radius: $button-border-radius;
-    font-size: $typographic-base-font-size;
-    font-weight: 400;
+    font-size: $typographic-base-font-size * 0.9;
+    font-weight: 900;
     margin-left: auto;
     margin-right: auto;
-    transition: all 0.5s;
-    
+    transition: all 0.4s linear;
+
     &:hover,
     &:focus {
-      box-shadow: 0px 2px 5px lighten($color-gray, 15%);
-      color: $color-base;
-      border: 1px solid $color-gray;
+      color: $color-secondary-light;
+      box-shadow: 0px 4px 12px $color-secondary-light;
+      border: 1px solid $color-secondary-light;
+      transition: all 0.4s linear;
     }
-
   }
-
 }
 
 @include breakpoint-md {
@@ -56,8 +55,8 @@
       position: fixed;
       max-width: auto;
       margin: 0;
-      top: 30px;
-      left: 30px
+      top: 50px;
+      left: 50px
     }
 
   }

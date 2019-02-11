@@ -7,7 +7,7 @@
   margin: 0 auto;
 
   &__title {
-    font-size: $typographic-base-font-size * 2.5;
+    font-size: $typographic-base-font-size * 2.25;
     max-width: $layout-post-width;
     margin-left: auto;
     margin-right: auto;
@@ -15,17 +15,19 @@
     text-align: center;
     @include line-height(1.65);
     @include margin-top(1);
-    @include margin-bottom(0.5)
+    @include margin-bottom(1)
   }
 
   &__body {
+    @include margin-bottom(2.5);
     & figure {
       @include margin-bottom(1);
 
       & blockquote {
         font-style: italic;
-        text-align: center;
+        text-align: justify;
         margin-top: 0;
+        font-family: serif;
         @include padding(1, 0);
 
         & p {
@@ -40,8 +42,16 @@
 
     }
 
+    & p {
+      overflow-wrap: break-word;
+      text-indent: 2rem;
+      hyphens: auto;
+    }
+    
     & a {
-      text-decoration: underline
+      text-decoration: none;
+      padding-bottom: 10px;
+      border-bottom: 5px inherit;
     }
 
     & *:not(div) {
@@ -50,6 +60,7 @@
       margin-left: auto;
       margin-right: auto
     }
+
 
   }
 

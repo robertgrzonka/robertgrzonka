@@ -4,7 +4,7 @@
 .author {
   border-top: 1px solid $color-gray-border;
   max-width: $layout-post-width;
-  padding-top: 20px;
+  padding-top: 50px;
   @include line-height(1);
   @include margin-top(1);
   @include margin-bottom(2);
@@ -12,7 +12,8 @@
   &__bio {
     &-twitter {
       display: block;
-      text-decoration: underline;
+      text-decoration: none;
+      text-align: center;
     }
   }
 }
