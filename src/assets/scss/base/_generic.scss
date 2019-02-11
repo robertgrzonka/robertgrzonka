@@ -25,13 +25,13 @@ h4,
 h5,
 h6 {
   font-family: $typographic-font-family;
-  font-weight: 600;
+  font-weight: 900;
 }
 
 h1 {
   font-size: $typographic-base-font-size * 3;
   @include line-height(2);
-  @include margin-top(5);
+  @include margin-top(3);
   @include margin-bottom(1.25);
 }
 

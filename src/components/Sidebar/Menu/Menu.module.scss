@@ -2,7 +2,7 @@
 @import '../../../assets/scss/mixins';
 
 .menu {
-  @include margin-bottom(1.5);
+  @include margin-bottom(1.25);
 
   &__list {
     list-style: none;
@@ -11,18 +11,18 @@
 
     &-item {
       padding: 0;
-      margin: 10px 0;
+      margin: 5px 0;
 
       &-link {
         font-size: $typographic-base-font-size;
-        color: lighten($typographic-base-font-color, 20%);
-        font-weight: 400;
+        color: lighten($typographic-base-font-color, 30%);
+        font-weight: 600;
         border: 0;
-        transition: all 0.5s;
+        transition: all 0.3s;
 
         &:hover,
         &:focus {
-          color: $color-secondary;
+          color: lighten($color-secondary, 15%);
         }
 
         &--active {
