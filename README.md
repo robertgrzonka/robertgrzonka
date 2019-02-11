@@ -1,5 +1,6 @@
 <div align="center" justify="justify">
 
+# About [me](mailto:robert@theguys.sh)
 robertgrzonka.js.org | robertgrzonka.netlify.com | robert.theguys.sh
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/fef9581c-f70c-4af9-952d-40a631e0c577/deploy-status)](https://app.netlify.com/sites/robertgrzonka/deploys)
