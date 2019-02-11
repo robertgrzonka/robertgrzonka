@@ -5,7 +5,7 @@ module.exports = {
   title: 'robertgrzonka | blog',
   subtitle: 'New is always better!',
   copyright: '2019 © All rights reserved.',
-  disqusShortname: 'robertgrzonka',
+  disqusShortname: 'theguys',
   postsPerPage: 4,
   googleAnalyticsId: 'UA-59184319-1',
   menu: [
@@ -20,6 +20,14 @@ module.exports = {
     {
       label: 'Projects',
       path: '/pages/contacts'
+    },
+    {
+      label: 'Projects',
+      path: '/pages/projects'
+    },
+    {
+      label: 'theGuys™',
+      path: '/pages/theguys'
     }
   ],
   author: {
@@ -27,14 +35,13 @@ module.exports = {
     photo: '/photo.jpg',
     bio: `JavaScript Developer,
     ex-Starbucks Barista,
-    writer & smart-ass.`,
+    writer & smart-ass.
+    But mostly the last one.`,
     contacts: {
       email: 'robert@theguys.sh',
       github: 'robertgrzonka',
       twitter: 'rgrzonka',
-      telegram: 'robertgrzonka',
-      rss: '#',
-      vkontakte: '#'
+      telegram: 'robertgrzonka'
     }
   }
 }

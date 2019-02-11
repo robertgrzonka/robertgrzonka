@@ -11,17 +11,17 @@
 
     &-link {
       color: $color-secondary;
-      font-size: 28px;
+      font-size: 24px;
       font-weight: 900;
 
       &:hover,
       &:focus {
-        color: $color-primary;
+        color: lighten($color-secondary, 15%);
       }
 
       &--disable {
         pointer-events: none;
-        color: lighten($color-gray, 20%);
+        color: lighten($color-gray, 30%);
       }
 
     }
@@ -33,13 +33,13 @@
     text-align: right;
 
     &-link {
-      color: $color-secondary;
-      font-size: 28px;
+      color: $color-primary;
+      font-size: 24px;
       font-weight: 900;
 
       &:hover,
       &:focus {
-        color: $color-primary;
+       color: lighten($color-primary, 15%);
       }
 
       &--disable {
