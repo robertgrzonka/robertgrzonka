@@ -10,27 +10,27 @@ module.exports = {
   googleAnalyticsId: 'UA-73379983-2',
   menu: [
     {
-      label: 'Articles',
+      label: 'Posts',
       path: '/'
     },
     {
-      label: 'About me',
+      label: 'About',
       path: '/pages/about'
     },
     {
-      label: 'Contact me',
+      label: 'Contact',
       path: '/pages/contacts'
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'robertgrzonka',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'Programming, banging, writing.',
     contacts: {
-      email: '#',
+      email: 'robert@theguys.sh',
       telegram: '#',
       twitter: '#',
-      github: '#',
+      github: 'robertgrzonka',
       rss: '#',
       vkontakte: '#'
     }
