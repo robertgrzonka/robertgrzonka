@@ -1,6 +1,6 @@
-import React from 'react';
-import renderer from 'react-test-renderer';
-import { PureComments as Comments } from './Comments';
+import React from 'react'
+import renderer from 'react-test-renderer'
+import { PureComments as Comments } from './Comments'
 
 describe('Comments', () => {
   it('renders correctly', () => {
@@ -15,9 +15,9 @@ describe('Comments', () => {
       },
       postTitle: 'test',
       postSlug: '/test'
-    };
+    }
 
-    const tree = renderer.create(<Comments {...props} />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-});
+    const tree = renderer.create(<Comments {...props} />).toJSON()
+    expect(tree).toMatchSnapshot()
+  })
+})

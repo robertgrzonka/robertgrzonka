@@ -1,6 +1,6 @@
-import React from 'react';
-import renderer from 'react-test-renderer';
-import { PureSidebar as Sidebar } from './Sidebar';
+import React from 'react'
+import renderer from 'react-test-renderer'
+import { PureSidebar as Sidebar } from './Sidebar'
 
 describe('Sidebar', () => {
   it('renders correctly', () => {
@@ -35,9 +35,9 @@ describe('Sidebar', () => {
           }
         }
       }
-    };
+    }
 
-    const tree = renderer.create(<Sidebar {...props} />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-});
+    const tree = renderer.create(<Sidebar {...props} />).toJSON()
+    expect(tree).toMatchSnapshot()
+  })
+})

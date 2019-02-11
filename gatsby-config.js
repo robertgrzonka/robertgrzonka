@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
-const siteConfig = require('./config.js');
-const postCssPlugins = require('./postcss-config.js');
+const siteConfig = require('./config.js')
+const postCssPlugins = require('./postcss-config.js')
 
 module.exports = {
   siteMetadata: {
@@ -112,7 +112,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
-        modulePath: `${__dirname}/src/cms/cms.js`,
+        modulePath: `${__dirname}/src/cms/cms.js`
       }
     },
     {
@@ -160,7 +160,7 @@ module.exports = {
         theme_color: '#F7A046',
         display: 'standalone',
         icon: 'static/photo.jpg'
-      },
+      }
     },
     'gatsby-plugin-offline',
     'gatsby-plugin-catch-links',
@@ -170,9 +170,9 @@ module.exports = {
       options: {
         postCssPlugins: [...postCssPlugins],
         cssLoaderOptions: {
-          camelCase: false,
+          camelCase: false
         }
       }
     }
   ]
-};
+}

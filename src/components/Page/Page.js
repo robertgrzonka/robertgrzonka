@@ -1,12 +1,12 @@
-import React, { useRef, useEffect } from 'react';
-import styles from './Page.module.scss';
+import React, { useRef, useEffect } from 'react'
+import styles from './Page.module.scss'
 
 const Page = ({ title, children }) => {
-  const pageRef = useRef();
+  const pageRef = useRef()
 
   useEffect(() => {
-    pageRef.current.scrollIntoView();
-  });
+    pageRef.current.scrollIntoView()
+  })
 
   return (
     <div ref={pageRef} className={styles['page']}>
@@ -17,7 +17,7 @@ const Page = ({ title, children }) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Page;
+export default Page

@@ -1,13 +1,13 @@
-'use strict';
+'use strict'
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  url: 'https://robert.theguys.sh',
+  title: 'robertgrzonka | blog & others',
+  subtitle: 'New is always better!',
   copyright: '© All rights reserved.',
-  disqusShortname: '',
+  disqusShortname: 'robertgrzonka',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: 'UA-59184319-1',
   menu: [
     {
       label: 'Posts',
@@ -25,14 +25,14 @@ module.exports = {
   author: {
     name: 'robertgrzonka',
     photo: '/photo.jpg',
-    bio: 'Programming, banging, writing.',
+    bio: `JavaScript & Node.js Developer, former Graphic Designer and Starbucks Barista. I'd love to see ocean.`,
     contacts: {
       email: 'robert@theguys.sh',
-      telegram: '#',
-      twitter: '#',
+      telegram: 'robertgrzonka',
+      twitter: 'rgrzonka',
       github: 'robertgrzonka',
       rss: '#',
       vkontakte: '#'
     }
   }
-};
+}

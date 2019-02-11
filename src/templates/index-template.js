@@ -1,16 +1,16 @@
-import React from 'react';
-import { graphql } from 'gatsby';
-import Layout from '../components/Layout';
-import Sidebar from '../components/Sidebar';
-import Feed from '../components/Feed';
-import Page from '../components/Page';
-import Pagination from '../components/Pagination';
+import React from 'react'
+import { graphql } from 'gatsby'
+import Layout from '../components/Layout'
+import Sidebar from '../components/Sidebar'
+import Feed from '../components/Feed'
+import Page from '../components/Page'
+import Pagination from '../components/Pagination'
 
 const IndexTemplate = ({ data, pageContext }) => {
   const {
     title: siteTitle,
     subtitle: siteSubtitle
-  } = data.site.siteMetadata;
+  } = data.site.siteMetadata
 
   const {
     currentPage,
@@ -18,10 +18,10 @@ const IndexTemplate = ({ data, pageContext }) => {
     hasPrevPage,
     prevPagePath,
     nextPagePath
-  } = pageContext;
+  } = pageContext
 
-  const { edges } = data.allMarkdownRemark;
-  const pageTitle = currentPage > 0 ? `Posts - Page ${currentPage} - ${siteTitle}` : siteTitle;
+  const { edges } = data.allMarkdownRemark
+  const pageTitle = currentPage > 0 ? `Posts - Page ${currentPage} - ${siteTitle}` : siteTitle
 
   return (
     <Layout title={pageTitle} description={siteSubtitle}>
@@ -36,8 +36,8 @@ const IndexTemplate = ({ data, pageContext }) => {
         />
       </Page>
     </Layout>
-  );
-};
+  )
+}
 
 export const query = graphql`
   query IndexTemplate($postsLimit: Int!, $postsOffset: Int!) {
@@ -69,6 +69,6 @@ export const query = graphql`
       }
     }
   }
-`;
+`
 
-export default IndexTemplate;
+export default IndexTemplate

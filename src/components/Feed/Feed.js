@@ -1,7 +1,7 @@
-import React from 'react';
-import moment from 'moment';
-import { Link } from 'gatsby';
-import styles from './Feed.module.scss';
+import React from 'react'
+import moment from 'moment'
+import { Link } from 'gatsby'
+import styles from './Feed.module.scss'
 
 const Feed = ({ edges }) => (
   <div className={styles['feed']}>
@@ -24,6 +24,6 @@ const Feed = ({ edges }) => (
       </div>
     ))}
   </div>
-);
+)
 
-export default Feed;
+export default Feed

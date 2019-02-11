@@ -1,23 +1,23 @@
-import React from 'react';
-import { graphql } from 'gatsby';
-import Layout from '../components/Layout';
-import Sidebar from '../components/Sidebar';
-import Page from '../components/Page';
+import React from 'react'
+import { graphql } from 'gatsby'
+import Layout from '../components/Layout'
+import Sidebar from '../components/Sidebar'
+import Page from '../components/Page'
 
 const PageTemplate = ({ data }) => {
   const {
     title: siteTitle,
     subtitle: siteSubtitle
-  } = data.site.siteMetadata;
+  } = data.site.siteMetadata
 
   const {
     title: pageTitle,
     description: pageDescription
-  } = data.markdownRemark.frontmatter;
+  } = data.markdownRemark.frontmatter
 
-  const { html: pageBody } = data.markdownRemark;
+  const { html: pageBody } = data.markdownRemark
 
-  const metaDescription = pageDescription !== null ? pageDescription : siteSubtitle;
+  const metaDescription = pageDescription !== null ? pageDescription : siteSubtitle
 
   return (
     <Layout title={`${pageTitle} - ${siteTitle}`} description={metaDescription}>
@@ -26,8 +26,8 @@ const PageTemplate = ({ data }) => {
         <div dangerouslySetInnerHTML={{ __html: pageBody }} />
       </Page>
     </Layout>
-  );
-};
+  )
+}
 
 export const query = graphql`
   query PageBySlug($slug: String!) {
@@ -47,6 +47,6 @@ export const query = graphql`
       }
     }
   }
-`;
+`
 
-export default PageTemplate;
+export default PageTemplate

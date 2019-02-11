@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 module.exports = {
   rootDir: '../',
@@ -18,4 +18,4 @@ module.exports = {
     __PATH_PREFIX__: ''
   },
   testURL: 'http://localhost/'
-};
+}

@@ -1,22 +1,22 @@
-import React from 'react';
-import { Link, graphql } from 'gatsby';
-import kebabCase from 'lodash/kebabCase';
-import Sidebar from '../components/Sidebar';
-import Layout from '../components/Layout';
-import Page from '../components/Page';
+import React from 'react'
+import { Link, graphql } from 'gatsby'
+import kebabCase from 'lodash/kebabCase'
+import Sidebar from '../components/Sidebar'
+import Layout from '../components/Layout'
+import Page from '../components/Page'
 
 const CategoriesListTemplate = ({ data }) => {
   const {
     title,
     subtitle
-  } = data.site.siteMetadata;
+  } = data.site.siteMetadata
 
-  const { group } = data.allMarkdownRemark;
+  const { group } = data.allMarkdownRemark
 
   return (
     <Layout title={`Categories - ${title}`} description={subtitle}>
       <Sidebar />
-      <Page title="Categories">
+      <Page title='Categories'>
         <ul>
           {group.map((category) => (
             <li key={category.fieldValue}>
@@ -28,8 +28,8 @@ const CategoriesListTemplate = ({ data }) => {
         </ul>
       </Page>
     </Layout>
-  );
-};
+  )
+}
 
 export const query = graphql`
   query CategoriesListQuery {
@@ -48,6 +48,6 @@ export const query = graphql`
       }
     }
   }
-`;
+`
 
-export default CategoriesListTemplate;
+export default CategoriesListTemplate

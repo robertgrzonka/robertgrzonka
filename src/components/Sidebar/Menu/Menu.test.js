@@ -1,6 +1,6 @@
-import React from 'react';
-import renderer from 'react-test-renderer';
-import Menu from './Menu';
+import React from 'react'
+import renderer from 'react-test-renderer'
+import Menu from './Menu'
 
 describe('Menu', () => {
   const props = {
@@ -14,10 +14,10 @@ describe('Menu', () => {
         path: '/#1/'
       }
     ]
-  };
+  }
 
   it('renders correctly', () => {
-    const tree = renderer.create(<Menu {...props} />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-});
+    const tree = renderer.create(<Menu {...props} />).toJSON()
+    expect(tree).toMatchSnapshot()
+  })
+})

@@ -25,21 +25,21 @@ h4,
 h5,
 h6 {
   font-family: $typographic-font-family;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 h1 {
   font-size: $typographic-base-font-size * 2.5;
   @include line-height(2);
-  @include margin-top(4);
-  @include margin-bottom(1);
+  @include margin-top(5);
+  @include margin-bottom(1.5);
 }
 
 h2 {
   font-size: $typographic-base-font-size * 1.6875;
   @include line-height(1.5);
-  @include margin-top(2);
-  @include margin-bottom(.5);
+  @include margin-top(2.25);
+  @include margin-bottom(0.75);
 }
 
 h3 {
@@ -78,8 +78,8 @@ img {
 }
 
 hr {
-  margin-top: 52px;
-  margin-bottom: 52px;
+  margin-top: 56px;
+  margin-bottom: 56px;
   border: 0;
   color: $color-base;
   display: block;
@@ -94,18 +94,21 @@ hr {
 a {
   color: $typographic-link-p-font-color;
   text-decoration: none;
+  transition: all 0.5s;
 
   &:hover,
   &:focus,
   &:active {
     color: $typographic-link-s-font-color;
+    text-decoration: none;
+    transition: all 0.5s;
   }
 
 }
 
 b,
 strong {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 ul {
@@ -122,6 +125,8 @@ ul {
 p {
   @include line-height(1);
   @include margin-bottom(1);
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 blockquote {

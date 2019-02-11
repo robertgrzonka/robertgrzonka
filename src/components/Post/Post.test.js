@@ -1,6 +1,6 @@
-import React from 'react';
-import renderer from 'react-test-renderer';
-import Post from './Post';
+import React from 'react'
+import renderer from 'react-test-renderer'
+import Post from './Post'
 
 describe('Post', () => {
   const props = {
@@ -21,10 +21,10 @@ describe('Post', () => {
         title: 'test'
       }
     }
-  };
+  }
 
   it('renders correctly', () => {
-    const tree = renderer.create(<Post {...props} />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-});
+    const tree = renderer.create(<Post {...props} />).toJSON()
+    expect(tree).toMatchSnapshot()
+  })
+})

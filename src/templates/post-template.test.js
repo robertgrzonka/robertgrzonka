@@ -1,6 +1,6 @@
-import React from 'react';
-import renderer from 'react-test-renderer';
-import PostTemplate from './post-template';
+import React from 'react'
+import renderer from 'react-test-renderer'
+import PostTemplate from './post-template'
 
 describe('PostTemplate', () => {
   const props = {
@@ -30,10 +30,10 @@ describe('PostTemplate', () => {
         }
       }
     }
-  };
+  }
 
   it('renders correctly', () => {
-    const tree = renderer.create(<PostTemplate {...props} />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-});
+    const tree = renderer.create(<PostTemplate {...props} />).toJSON()
+    expect(tree).toMatchSnapshot()
+  })
+})

@@ -1,21 +1,21 @@
-import React from 'react';
-import { Link, graphql } from 'gatsby';
-import kebabCase from 'lodash/kebabCase';
-import Layout from '../components/Layout';
-import Sidebar from '../components/Sidebar';
-import Page from '../components/Page';
+import React from 'react'
+import { Link, graphql } from 'gatsby'
+import kebabCase from 'lodash/kebabCase'
+import Layout from '../components/Layout'
+import Sidebar from '../components/Sidebar'
+import Page from '../components/Page'
 
 const TagsListTemplate = ({ data }) => {
   const {
     title,
     subtitle
-  } = data.site.siteMetadata;
-  const { group } = data.allMarkdownRemark;
+  } = data.site.siteMetadata
+  const { group } = data.allMarkdownRemark
 
   return (
     <Layout title={`Tags - ${title}`} description={subtitle}>
       <Sidebar />
-      <Page title="Tags">
+      <Page title='Tags'>
         <ul>
           {group.map((tag) => (
             <li key={tag.fieldValue}>
@@ -27,8 +27,8 @@ const TagsListTemplate = ({ data }) => {
         </ul>
       </Page>
     </Layout>
-  );
-};
+  )
+}
 
 export const query = graphql`
   query TagsListQuery {
@@ -47,6 +47,6 @@ export const query = graphql`
       }
     }
   }
-`;
+`
 
-export default TagsListTemplate;
+export default TagsListTemplate
