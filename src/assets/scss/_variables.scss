@@ -8,9 +8,9 @@ $color-primary: #008B8B;
 $color-secondary: #a0143c;
 
 $color-white: #FFF;
-$color-gray: lighten($color-base, 50%);
-$color-gray-border: lighten($color-base, 80%);
-$color-gray-bg: lighten($color-base, 83%);
+$color-gray: lighten($color-base, 30%);
+$color-gray-border: lighten($color-base, 79%);
+$color-gray-bg: lighten($color-base, 85%);
 
 // Typographic
 $typographic-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
@@ -29,7 +29,7 @@ $typographic-leading: round(16 * ($typographic-root-font-size / 100) * $typograp
 
 // Buttons
 $button-height: 35px;
-$button-border-radius: 20px;
+$button-border-radius: 5px;
 
 // Layout
 $layout-post-single-width: 945px;

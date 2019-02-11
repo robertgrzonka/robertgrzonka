@@ -2,35 +2,37 @@
 
 module.exports = {
   url: 'https://robert.theguys.sh',
-  title: 'robertgrzonka | blog & others',
+  title: 'robertgrzonka | blog',
   subtitle: 'New is always better!',
-  copyright: '© All rights reserved.',
+  copyright: '2019 © All rights reserved.',
   disqusShortname: 'robertgrzonka',
   postsPerPage: 4,
   googleAnalyticsId: 'UA-59184319-1',
   menu: [
     {
-      label: 'Posts',
+      label: 'Blog',
       path: '/'
     },
     {
-      label: 'About',
+      label: 'About me',
       path: '/pages/about'
     },
     {
-      label: 'Contact',
+      label: 'Projects',
       path: '/pages/contacts'
     }
   ],
   author: {
     name: 'robertgrzonka',
     photo: '/photo.jpg',
-    bio: `JavaScript & Node.js Developer, former Graphic Designer and Starbucks Barista. I'd love to see ocean.`,
+    bio: `JavaScript Developer,
+    ex-Starbucks Barista,
+    writer & smart-ass.`,
     contacts: {
       email: 'robert@theguys.sh',
-      telegram: 'robertgrzonka',
-      twitter: 'rgrzonka',
       github: 'robertgrzonka',
+      twitter: 'rgrzonka',
+      telegram: 'robertgrzonka',
       rss: '#',
       vkontakte: '#'
     }
