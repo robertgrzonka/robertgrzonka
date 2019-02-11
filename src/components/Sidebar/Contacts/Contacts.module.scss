@@ -3,6 +3,7 @@
 
 .contacts {
   @include margin-bottom(1);
+  @include margin-top(1);
 
   &__list {
     display: flex;
@@ -17,25 +18,19 @@
     &-item {
       padding: 0;
       margin: 4px;
-      display: flex;
-      align-content: center;
-      align-items: center;
-      justify-content: center;
       height: $button-height;
       width: $button-height;
       line-height: $button-height;
-      border-radius: 50%;
-      text-align: center;
+      border-radius: 5px;
       border: 1px solid $color-gray-bg;
 
       &-link {
         border: 0;
-        display: flex;
         color: $color-base;
   
         &:hover,
         &:focus {
-          color: $color-primary;
+          color: $color-secondary;
         }
 
       }

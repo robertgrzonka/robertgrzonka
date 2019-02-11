@@ -9,16 +9,16 @@
   }
 
   &__title {
-    font-size: $typographic-base-font-size * 2.5;
-    font-weight: 600;
-    @include line-height(2);
-    @include margin-top(0);
-    @include margin-bottom(1.45);
+    font-size: $typographic-base-font-size * 5;
+    font-weight: 100;
+    @include line-height(1.5);
+    @include margin-top(1);
+    @include margin-bottom(1.75);
   }
 
   &__body {
     font-size: $typographic-base-font-size;
-    @include line-height(1);
+    @include line-height(1.5);
     @include margin(0, 0, 1);
   }
 

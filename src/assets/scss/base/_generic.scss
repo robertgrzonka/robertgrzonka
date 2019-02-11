@@ -25,21 +25,21 @@ h4,
 h5,
 h6 {
   font-family: $typographic-font-family;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 h1 {
-  font-size: $typographic-base-font-size * 2.5;
+  font-size: $typographic-base-font-size * 3;
   @include line-height(2);
   @include margin-top(5);
-  @include margin-bottom(1.5);
+  @include margin-bottom(1.25);
 }
 
 h2 {
   font-size: $typographic-base-font-size * 1.6875;
   @include line-height(1.5);
-  @include margin-top(2.25);
-  @include margin-bottom(0.75);
+  @include margin-top(2);
+  @include margin-bottom(0.5);
 }
 
 h3 {
@@ -108,7 +108,7 @@ a {
 
 b,
 strong {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 ul {
