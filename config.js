@@ -14,11 +14,11 @@ module.exports = {
       path: '/'
     },
     {
-      label: 'About',
+      label: 'About me',
       path: '/pages/about'
     },
     {
-      label: 'Contact',
+      label: 'Projects',
       path: '/pages/contacts'
     },
     {
@@ -33,14 +33,15 @@ module.exports = {
   author: {
     name: 'robertgrzonka',
     photo: '/photo.jpg',
-    bio: 'JavaScript Developer,\n\nex-Starbucks Barista,\n\nwriter & smart-ass.\n\nMostly last one.',
+    bio: `JavaScript Developer,
+    ex-Starbucks Barista,
+    writer & smart-ass.
+    But mostly the last one.`,
     contacts: {
       email: 'robert@theguys.sh',
       github: 'robertgrzonka',
       twitter: 'rgrzonka',
-      telegram: 'robertgrzonka',
-      rss: '#',
-      vkontakte: '#'
+      telegram: 'robertgrzonka'
     }
   }
 }
