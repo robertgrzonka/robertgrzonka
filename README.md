@@ -1,30 +1,20 @@
 <div align="center" justify="justify">
-[![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors)
 
-# Perseive & blog [![Netlify Status](https://api.netlify.com/api/v1/badges/fef9581c-f70c-4af9-952d-40a631e0c577/deploy-status)](https://app.netlify.com/sites/robertgrzonka/deploys)
+# Perseive & blog [![Netlify Status](https://api.netlify.com/api/v1/badges/fef9581c-f70c-4af9-952d-40a631e0c577/deploy-status)](https://app.netlify.com/sites/robertgrzonka/deploys) [![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors)
 
 [robert@theguys.sh](mailto:robert@theguys.sh) | [robert.theguys.sh]
 
 </div>
 
-## [Skills & knowledge](#skills.md)
+## [Skills & knowledge](skills.md)
 
-## [Environments](#env.md)
+## [Environments](environments.md)
 
-## [Projects](#proj.md)
+## [Projects](projects.md)
 
-## [Open-Source](#open.md)
+## [Open-Source](open.md)
 
-<div align="center">
-
-MIT © 2019 | [robertgrzonka](mailto:robert@theguys.sh)
-
-</div>
-
-[robert.theguys.sh]: https://robert.theguys.sh
-[robertgrzonka.netlify.com]: https://robertgrzonka.netlify.com
-
-## Contributors
+## [Contributors](CONTRIBUTING.md)
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
@@ -33,3 +23,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## License
+MIT © 2019 | [robertgrzonka](mailto:robert@theguys.sh)
+
+
+[robert.theguys.sh]: https://robert.theguys.sh
