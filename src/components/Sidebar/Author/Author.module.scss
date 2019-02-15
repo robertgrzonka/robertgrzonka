@@ -3,6 +3,7 @@
 
 .author {
   @include margin(2, 0, 1.5, 0);
+
   &__photo {
     border-radius: 5px;
     background-clip: padding-box;
@@ -13,6 +14,7 @@
     font-weight: 400;
     @include line-height(1.125);
     @include margin(1, 0, 0, 0);
+
     &-link {
       color: $color-base;
 
