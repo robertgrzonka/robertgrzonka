@@ -1,6 +1,7 @@
 <div align="center" justify="justify">
 
-# Perseive & blog [![Netlify Status](https://api.netlify.com/api/v1/badges/fef9581c-f70c-4af9-952d-40a631e0c577/deploy-status)](https://app.netlify.com/sites/robertgrzonka/deploys) [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+# Perseive & blog 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fef9581c-f70c-4af9-952d-40a631e0c577/deploy-status)](https://app.netlify.com/sites/robertgrzonka/deploys) [![Build Status](https://travis-ci.com/robertgrzonka/robertgrzonka.svg?branch=master)](https://travis-ci.com/robertgrzonka/robertgrzonka) [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 [robert@theguys.sh](mailto:robert@theguys.sh) | [robert.theguys.sh]
 
