@@ -20,7 +20,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars0.githubusercontent.com/u/35585466?v=4" width="150px;" alt="robertgrzonka"/><br /><sub><b>robertgrzonka</b></sub>](https://robert.theguys.sh)<br />[🎨](#design-robertgrzonka "Design") [💻](https://github.com/robertgrzonka/robertgrzonka/commits?author=robertgrzonka "Code") |
+| [<img src="https://avatars0.githubusercontent.com/u/35585466?v=4" width="100px;" alt="robertgrzonka"/><br /><sub><b>robertgrzonka</b></sub>](https://robert.theguys.sh)<br />[🎨](#design-robertgrzonka "Design") [💻](https://github.com/robertgrzonka/robertgrzonka/commits?author=robertgrzonka "Code") [📝](#blog-robertgrzonka "Blogposts") [💼](#business-robertgrzonka "Business development") [🖋](#content-robertgrzonka "Content") |
 | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
