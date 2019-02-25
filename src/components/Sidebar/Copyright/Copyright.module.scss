@@ -4,5 +4,6 @@
 .copyright {
   color: darken($color-gray, 20%);
   font-size: $typographic-small-font-size;
+  text-align: center;
   @include margin-top(2);
 }

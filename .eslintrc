@@ -8,13 +8,13 @@
     "jest/globals": true
   },
   "plugins": [
-      "react",
-      "jest",
-      "jsx-a11y",
-      "import"
+    "react",
+    "jest",
+    "jsx-a11y",
+    "import"
   ],
   "globals": {
-      "graphql": true
+    "graphql": true
   },
   "rules": {
     "comma-dangle": 0,
