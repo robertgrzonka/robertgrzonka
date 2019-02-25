@@ -13,7 +13,7 @@
     list-style: none;
     padding: 0;
     margin: 5px -3px;
-    justify-content: baseline;
+    justify-content: space-around;
 
     &-item {
       padding: 0;
@@ -22,11 +22,11 @@
       width: $button-height;
       line-height: $button-height;
       border-radius: 3px;
-      border: 0px solid $color-gray-bg;
 
       &-link {
         border: 0;
         color: lighten($color-base, 15%);
+        transition: $transition;
 
         &:hover,
         &:focus {

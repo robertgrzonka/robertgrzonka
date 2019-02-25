@@ -7,7 +7,8 @@ const Layout = ({ children, title, description }) => (
     <Helmet>
       <html lang='en' />
       <title>{title}</title>
-      <meta name='description' content={description} />
+      <meta name='description' content={description} charSet='utf-8' />
+      <meta name='viewport' content='width=device-width, initial-scale=1' />
     </Helmet>
     {children}
   </div>

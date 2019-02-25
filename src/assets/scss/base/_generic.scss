@@ -95,14 +95,14 @@ hr {
 a {
   color: $typographic-link-p-font-color;
   text-decoration: none;
-  transition: all 0.5s;
+  transition: all 0.4s ease-in-out;
 
   &:hover,
   &:focus,
   &:active {
     color: $typographic-link-s-font-color;
     text-decoration: none;
-    transition: all 0.5s;
+    transition: all 0.4s ease-in-out;
   }
 
 }

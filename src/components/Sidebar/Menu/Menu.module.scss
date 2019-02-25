@@ -11,39 +11,60 @@
     margin: 0 auto;
 
     &-item {
-      padding: 0;
       margin: 0 auto;
-      border-left: 1px solid $color-secondary;
       display: block;
 
       &-link {
-        font-size: $typographic-base-font-size * 1.1;
+        font-size: $typographic-base-font-size;
         color: $color-secondary;
-        font-weight: 100;
+        font-weight: 300;
         padding: 5px 20px;
-        width: 100px;
-        text-align: left;
         display: block;
-        transition: $transition;
+        position: relative;
+        z-index: 0;
 
-        &:hover,
-        &:focus {
-          color: $color-secondary;
-          border-left: 3px solid $color-secondary;
-          background-color: lighten($color-secondary-light, 45%);
-          transition: all 0.1;
-          padding: 5px 20px;
+        &::before {
+          content: '';
+          position: absolute;
+          left: 0px;
+          bottom: 0px;
+          width: 1px;
+          height: 100%;
+          background-color: lighten($color-secondary-light, 25%);
+          will-change: width;
+          z-index: -1;
+          transition: all 0.3s ease-in-out;
+        }
+
+        &:hover {
           font-weight: 500;
-          transition: $transition;
+          color: white;
+
+          &::before {
+            width: 100%;
+          }
         }
 
         &--active {
           color: $color-secondary;
-          border-left: 3px solid $color-secondary;
-          font-weight: 500;
-          transition: $transition;
-        }
+          font-weight: 400;
+          z-index: 1;
 
+          &::before {
+            content: '';
+            width: 2px;
+            background-color: $color-secondary;
+            z-index: -1;
+          }
+
+          &:hover {
+            color: white;
+          }
+
+          &:hover::before {
+            background-color: lighten($color-secondary-light, 25%);
+          }
+        }
       }
 
     }

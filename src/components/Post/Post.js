@@ -19,7 +19,7 @@ const Post = ({ post }) => {
 
   return (
     <div className={styles['post']}>
-      <Link className={styles['post__home-button']} to='/'>◀︎ Main</Link>
+      <Link className={styles['post__home-button']} to='/'>◀︎ Back to main</Link>
 
       <div className={styles['post__content']}>
         <Content body={html} title={title} />
