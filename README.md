@@ -15,15 +15,17 @@
    3. [Projects](#projects)
       1. [theGuys.design](#theguysdesign)
       2. [collo](#collo)
-      3. [deem _unfinished_](#deem-_unfinished_)
+      3. [deem](#deem)
+         1. [_undone_](#_undone_)
       4. [Witcher quotes](#witcher-quotes)
       5. [dotfiles](#dotfiles)
    4. [Open-Source](#open-source)
-   5. [Contributors](#contributors)
-   6. [License](#license)
+   5. [Passions](#passions)
+   6. [Contributors](#contributors)
+   7. [License](#license)
 
 
-## [Skills & knowledge](skills.md)
+## Skills & knowledge
 ### HTML5
 ### JavaScript
   * React
@@ -35,27 +37,47 @@
 ### Shell Scripting (UNIX)
 ### Python (_basics_)
 
-## [Projects](projects.md)
+## Projects
+
 ### [theGuys.design](https://theguys.design)
-  > React, Next
+
+> React, Next
   
   I saw a lot of React Component libraries but none of them met my expectations and that's why I decided to do one by myself. I spend a lot of time on this project and I still can see how much is to do.
+  
+  Source code is [here](https://github.com/robertgrzonka/theguys) on GitHub.
+  
 ### [collo](https://collo.theguys.app)
-  > Node
+
+> Node
   
   Born as a token generator (which tooks your password, encrypt it and save it in `config` folder) and then rewritten to something look-a-like [deem](#Projects--deem) below.
-### [deem](https://deem.theguys.app) _unfinished_
-  > React, Next
   
-  deem was firstly written as pure JavaScript editor for text testing—how paragraphs or headers looks with different variants of font weights, sizes or colors. I've rewrite it into React app which became my sandbox at the end.
-### Witcher quotes
-  > Node, MongoDB, JavaScript, Next
-  
-  First adventure with MongoDB.
-### dotfiles
-  > shell, Node
+  Source code is [here](https://github.com/robertgrzonka/collo) on GitHub.
 
-## [Open-Source](open.md)
+### [deem](https://deem.theguys.app) 
+#### _undone_
+
+> React, Next
+  
+deem was firstly written as pure JavaScript editor for text testing—how paragraphs or headers looks with different variants of font weights, sizes or colors. I've rewrite it into React app which became my sandbox at the end.
+  
+Source code is [here](https://github.com/robertgrzonka/deem) on GitHub.
+  
+### [Witcher quotes](https://wiedzmin.now.sh)
+
+> Node, MongoDB, JavaScript, Next
+  
+First adventure with MongoDB.
+  
+Source code is [here](https://gitlab.com/robertgrzonka/witcher-quotes) on GitLab.
+  
+### [dotfiles](https://github.com/robertgrzonka/dotfiles)
+
+> shell, Node
+
+## Open-Source
+
 > Projects with my contributions.
 
 As Open-Source has stole my heart I spend a lot of time with Open-Source code on GitHub or GitLab. This is, in my opinion, true magic of programming. That is the reason I am sure that I found my place on Earth :heart: (yep, sic! I know :wink:)
@@ -64,6 +86,16 @@ As Open-Source has stole my heart I spend a lot of time with Open-Source code on
 * Electron
 * Hyper
 * Now
+* Docusaurus
+
+I am also [Patreon](https://patreon.com) of [Sinre Sorhus](https://github.com/sindresorhus) as he is my personal open-source hero :)
+
+## Passions
+
+* Typography — I've learned a lot from [Practical Typography](https://practicaltypography.com).
+* Pandoc — and LaTeX are my life-changers. I fall in love in them as much as in programming.
+* LaTeX
+* World of Tanks Blitz :tank: yep, I am true WoT player who plays **every-single-day**. But no worries: I am programming every-single-day as well ;)
 
 ## [Contributors](CONTRIBUTING.md)
 
