@@ -1,5 +1,5 @@
 # Perseive & blog by Robert Grzonka
-> [robert@theguys.sh](mailto:robert@theguys.sh) | [robert.theguys.sh]
+> [robert.theguys.sh]
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/fef9581c-f70c-4af9-952d-40a631e0c577/deploy-status)](https://app.netlify.com/sites/robertgrzonka/deploys) [![Build Status](https://travis-ci.com/robertgrzonka/robertgrzonka.svg?branch=master)](https://travis-ci.com/robertgrzonka/robertgrzonka) [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
@@ -16,7 +16,6 @@
       1. [theGuys.design](#theguysdesign)
       2. [collo](#collo)
       3. [deem](#deem)
-         1. [_undone_](#_undone_)
       4. [Witcher quotes](#witcher-quotes)
       5. [dotfiles](#dotfiles)
    4. [Open-Source](#open-source)
@@ -56,7 +55,7 @@
   Source code is [here](https://github.com/robertgrzonka/collo) on GitHub.
 
 ### [deem](https://deem.theguys.app) 
-#### _undone_
+_undone_
 
 > React, Next
   
@@ -80,7 +79,7 @@ Source code is [here](https://gitlab.com/robertgrzonka/witcher-quotes) on GitLab
 
 > Projects with my contributions.
 
-As Open-Source has stole my heart I spend a lot of time with Open-Source code on GitHub or GitLab. This is, in my opinion, true magic of programming. That is the reason I am sure that I found my place on Earth :heart: (yep, sic! I know :wink:)
+As Open-Source philosophy has stole my heart I spend a lot of time with Open-Source code on GitHub or GitLab. This is, in my opinion, true magic of programming. That is the reason I am sure that I found my place on Earth :heart: (yep, sic! I know :wink:)
 
 * All-Contributors
 * Electron
@@ -88,14 +87,14 @@ As Open-Source has stole my heart I spend a lot of time with Open-Source code on
 * Now
 * Docusaurus
 
-I am also [Patreon](https://patreon.com) of [Sinre Sorhus](https://github.com/sindresorhus) as he is my personal open-source hero :)
+I am also [Patreon](https://patreon.com) of [Sindre Sorhus](https://github.com/sindresorhus) as he is my personal open-source hero :)
 
 ## Passions
 
 * Typography — I've learned a lot from [Practical Typography](https://practicaltypography.com).
-* Pandoc — and LaTeX are my life-changers. I fall in love in them as much as in programming.
-* LaTeX
-* World of Tanks Blitz :tank: yep, I am true WoT player who plays **every-single-day**. But no worries: I am programming every-single-day as well ;)
+* Pandoc — together with LaTeX are my life-changer tools. I fall in love with them as much as in programming.
+* LaTeX — as above.
+* World of Tanks Blitz :video_game: yep, I am true WoT player who plays **every-single-day**. But no worries: I am programming every-single-day as well ;)
 
 ## [Contributors](CONTRIBUTING.md)
 
