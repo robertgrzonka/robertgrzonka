@@ -7,11 +7,7 @@
 1. [Perseive & blog by Robert Grzonka](#perseive--blog-by-robert-grzonka)
    1. [Table of Contents](#table-of-contents)
    2. [Skills & knowledge](#skills--knowledge)
-      1. [HTML5](#html5)
-      2. [JavaScript](#javascript)
-      3. [CSS3](#css3)
-      4. [Shell Scripting (UNIX)](#shell-scripting-unix)
-      5. [Python (_basics_)](#python-_basics_)
+      1. [What do I know and feel comfortable to work with?](#what-do-i-know-and-feel-comfortable-to-work-with)
    3. [Projects](#projects)
       1. [theGuys.design](#theguysdesign)
       2. [collo](#collo)
@@ -19,22 +15,29 @@
       4. [Witcher quotes](#witcher-quotes)
       5. [dotfiles](#dotfiles)
    4. [Open-Source](#open-source)
-   5. [Passions](#passions)
+   5. [Passions & hobbies](#passions--hobbies)
    6. [Contributors](#contributors)
    7. [License](#license)
 
 
 ## Skills & knowledge
-### HTML5
-### JavaScript
+
+My first contact with HTML and CSS was in elementary school when I was working with blogs—for my friends and for myself. After that my programming journey was occasional until January of 2018 when I've started learning JavaScript. I quit my job and became full-time learner living with my savings from last months. I've decided to learn it well!
+
+### What do I know and feel comfortable to work with?
+* HTML5
+* JavaScript
   * React
   * Node.js
+  * Next
   * MongoDB
-### CSS3
+* CSS3
   * Bootstrap
   * Sass
-### Shell Scripting (UNIX)
-### Python (_basics_)
+* Shell Scripting (UNIX)
+* Python (_some basics_)
+
+> I have worked with a lot of JavaScript libraries, some of them can be seen in my projects below.
 
 ## Projects
 
@@ -75,11 +78,15 @@ Source code is [here](https://gitlab.com/robertgrzonka/witcher-quotes) on GitLab
 
 > shell, Node
 
+---
+
+I also did much more smaller inline projects :)
+
 ## Open-Source
 
 > Projects with my contributions.
 
-As Open-Source philosophy has stole my heart I spend a lot of time with Open-Source code on GitHub or GitLab. This is, in my opinion, true magic of programming. That is the reason I am sure that I found my place on Earth :heart: (yep, sic! I know :wink:)
+As Open-Source philosophy has stole my heart, I spent a lot of time with Open-Source code on GitHub or GitLab. This is, in my opinion, true magic of programming. That is the reason I am sure that I found my place on Earth :heart: (yep, sic! I know :wink:)
 
 * All-Contributors
 * Electron
@@ -89,12 +96,12 @@ As Open-Source philosophy has stole my heart I spend a lot of time with Open-Sou
 
 I am also [Patreon](https://patreon.com) of [Sindre Sorhus](https://github.com/sindresorhus) as he is my personal open-source hero :)
 
-## Passions
+## Passions & hobbies
 
-* Typography — I've learned a lot from [Practical Typography](https://practicaltypography.com).
-* Pandoc — together with LaTeX are my life-changer tools. I fall in love with them as much as in programming.
-* LaTeX — as above.
-* World of Tanks Blitz :video_game: yep, I am true WoT player who plays **every-single-day**. But no worries: I am programming every-single-day as well ;)
+* **Typography** — I've learned a lot from [Practical Typography](https://practicaltypography.com).
+* **Pandoc** — together with `LaTeX` are my life-changer tools. I fall in love with them as much as in programming.
+* **LaTeX** — as above.
+* **World of Tanks Blitz** :video_game: yep, I am true WoT player who plays **every-single-day**. But no worries: I am programming every-single-day as well ;)
 
 ## [Contributors](CONTRIBUTING.md)
 
