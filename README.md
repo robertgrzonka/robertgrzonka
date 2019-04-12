@@ -99,7 +99,7 @@ I am also [Patreon](https://patreon.com) of [Sindre Sorhus](https://github.com/s
 ## Passions & hobbies
 
 * **Typography** — I've learned a lot from [Practical Typography](https://practicaltypography.com).
-* **Pandoc** — together with `LaTeX` are my life-changer tools. I fall in love with them as much as in programming.
+* **Pandoc** — together with `LaTeX` are my life-changing tools. I fall in love with them as much as in programming.
 * **LaTeX** — as above.
 * **World of Tanks Blitz** :video_game: yep, I am true WoT player who plays **every-single-day**. But no worries: I am programming every-single-day as well ;)
 
